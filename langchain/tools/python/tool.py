@@ -78,11 +78,6 @@ class PythonREPLTool(BaseTool):
         return result
 
 
-class AstArgSchema(BaseModel):
-    """A schema for the ast argument."""
-    query: str = Field(description="A string formatted plain python script with imports and variables to execute.")
-
-
 class PythonAstREPLTool(BaseTool):
     """A tool for running python code in a REPL."""
 
