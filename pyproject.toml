@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "langchain"
+name = "langchain-jchi-fork"
 version = "0.0.237"
 description = "Building applications with LLMs through composability"
 authors = []
