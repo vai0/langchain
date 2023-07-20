@@ -6,7 +6,7 @@ import re
 import sys
 from contextlib import redirect_stdout
 from io import StringIO
-from typing import Any, Dict, Optional
+from typing import Any, Dict, Optional, Type
 
 from pydantic import BaseModel, Field, root_validator
 
